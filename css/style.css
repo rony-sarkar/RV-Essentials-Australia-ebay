@@ -689,6 +689,15 @@ section.tab-section {
 /***** Mobile Layout *****/
 
 @media only screen and (max-width: 767px) {
+    .gallery-centent {
+        overflow: hidden;
+        width: 300px;
+    }
+
+    .product-dec td,
+    .product-dec ul li {
+        font-size: 14px;
+    }
 
     /* menu start */
     .navbar-header > label,
@@ -790,7 +799,7 @@ section.tab-section {
 
     .csslider > ul > li {
         width: 50%;
-        padding: 20px;
+        padding: 5px;
     }
 
     .csslider > ul {
@@ -872,4 +881,8 @@ section.tab-section {
 
 /***** Wide Mobile Layout *****/
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 420px) and (max-width: 767px) {
+    .gallery-centent {
+        width: 400px;
+    }
+}
